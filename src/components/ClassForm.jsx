@@ -55,12 +55,12 @@ class ClassForm extends React.Component {
               
               <div className="form-group">
                 <label><h6 className="text-white">Email</h6></label>
-                <input type="email" className="form-control" placeholder="Your-Email @abc.com" value={this.state.email} onChange={this.handleEmailChange} />
+                <input type="email" className="form-control" placeholder="Your-Email@abc.com" value={this.state.email} onChange={this.handleEmailChange} />
               </div>
               
               <div className="form-group">
                 <label><h6 className="text-white">Password</h6></label>
-                <input type="password" className="form-control" placeholder="Your Password" valu={this.state.password} onChange={this.handlePasswordChange}/>
+                <input type="password" className="form-control" placeholder="Your Password" value={this.state.password} onChange={this.handlePasswordChange}/>
               </div>
               
               <div className="form-group">
